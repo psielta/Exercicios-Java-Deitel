@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch12.ex7.MortgageCalculatorAppTextAreaController">
+   <children>
+      <TextArea fx:id="parcelaTextArea" layoutX="24.0" layoutY="51.0" prefHeight="329.0" prefWidth="561.0" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="47.0" />
+      <Button layoutX="24.0" layoutY="14.0" mnemonicParsing="false" onAction="#btVoltar" text="Button" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="14.0" />
+   </children>
+</AnchorPane>
